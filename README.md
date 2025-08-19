@@ -1,4 +1,5 @@
 💰 AI-Powered Personal Finance Assistant (Money Coach)
+
 📌 Problem
 Many individuals struggle with managing their monthly salary. While they receive a steady income, they often lack the skills or tools to allocate it properly across different needs. As a result, overspending on non-essential items is common, leaving little for savings or emergencies. Traditional budgeting methods require discipline and are difficult to maintain, while many existing apps are either too complicated or fail to provide personalized advice. The absence of a simple, adaptive, and user-friendly solution makes personal finance management overwhelming for most people.
 
