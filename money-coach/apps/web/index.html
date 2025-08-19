@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Money Coach</title>
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+	<header>
+		<h1>Money Coach</h1>
+		<p class="subtitle">Plan paychecks, spend intentionally, grow savings.</p>
+	</header>
+
+	<main>
+		<section class="card">
+			<h2>Paycheck Planner</h2>
+			<form id="plan-form">
+				<label>Income (net)
+					<input type="number" step="0.01" id="income" placeholder="2400" required />
+				</label>
+
+				<div class="grid">
+					<div>
+						<h3>Fixed</h3>
+						<div id="fixed-list"></div>
+						<button type="button" id="add-fixed">+ Fixed</button>
+					</div>
+					<div>
+						<h3>Variable</h3>
+						<div id="var-list"></div>
+						<button type="button" id="add-var">+ Variable</button>
+					</div>
+					<div>
+						<h3>Goals</h3>
+						<div id="goal-list"></div>
+						<button type="button" id="add-goal">+ Goal</button>
+					</div>
+				</div>
+
+				<button class="primary" type="submit">Generate Plan</button>
+			</form>
+		</section>
+
+		<section class="card" id="result" hidden>
+			<h2>Suggested Allocation</h2>
+			<pre id="alloc-output"></pre>
+			<div id="tips"></div>
+		</section>
+
+		<section class="card">
+			<h2>Monthly Report (demo)</h2>
+			<pre id="report"></pre>
+		</section>
+	</main>
+
+	<script src="/main.js"></script>
+</body>
+</html>
