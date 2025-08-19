@@ -28,7 +28,3 @@ Trackers: Progress bars and alerts for goals and overspending.
 Automatic expense tracking via bank integration.
 AI chatbot for instant financial advice.
 Multi-device sync for seamless access.
-
-AI chatbot for instant financial advice.
-
-Multi-device sync for seamless access.
